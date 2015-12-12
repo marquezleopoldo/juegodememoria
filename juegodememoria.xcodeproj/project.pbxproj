@@ -6,17 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3D50EBC81C1CC5B100710539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D50EBC71C1CC5B100710539 /* main.m */; };
-		3D50EBCB1C1CC5B100710539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D50EBCA1C1CC5B100710539 /* AppDelegate.m */; };
-		3D50EBCE1C1CC5B100710539 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D50EBCD1C1CC5B100710539 /* ViewController.m */; };
-		3D50EBD11C1CC5B100710539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D50EBCF1C1CC5B100710539 /* Main.storyboard */; };
-		3D50EBD31C1CC5B100710539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D50EBD21C1CC5B100710539 /* Assets.xcassets */; };
-		3D50EBD61C1CC5B100710539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D50EBD41C1CC5B100710539 /* LaunchScreen.storyboard */; };
-		3D50EBE11C1CC5B100710539 /* juegodememoriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D50EBE01C1CC5B100710539 /* juegodememoriaTests.m */; };
-		3D50EBEC1C1CC5B100710539 /* juegodememoriaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D50EBEB1C1CC5B100710539 /* juegodememoriaUITests.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		3D50EBDD1C1CC5B100710539 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,22 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D50EBC31C1CC5B100710539 /* juegodememoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juegodememoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D50EBC71C1CC5B100710539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D50EBC91C1CC5B100710539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3D50EBCA1C1CC5B100710539 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D50EBCC1C1CC5B100710539 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D50EBCD1C1CC5B100710539 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3D50EBD01C1CC5B100710539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D50EBD21C1CC5B100710539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D50EBD51C1CC5B100710539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D50EBD71C1CC5B100710539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D50EBDC1C1CC5B100710539 /* juegodememoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegodememoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D50EBE01C1CC5B100710539 /* juegodememoriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = juegodememoriaTests.m; sourceTree = "<group>"; };
-		3D50EBE21C1CC5B100710539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D50EBE71C1CC5B100710539 /* juegodememoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegodememoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D50EBEB1C1CC5B100710539 /* juegodememoriaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = juegodememoriaUITests.m; sourceTree = "<group>"; };
-		3D50EBED1C1CC5B100710539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D50EBC31C1CC5B100710539 /* juegodememoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = juegodememoria.app; path = "/Users/leopoldomarquez/Desktop/untitled folder/juegodememoria/build/Debug-iphoneos/juegodememoria.app"; sourceTree = "<absolute>"; };
+		3D50EBDC1C1CC5B100710539 /* juegodememoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = juegodememoriaTests.xctest; path = "/Users/leopoldomarquez/Desktop/untitled folder/juegodememoria/build/Debug-iphoneos/juegodememoriaTests.xctest"; sourceTree = "<absolute>"; };
+		3D50EBE71C1CC5B100710539 /* juegodememoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = juegodememoriaUITests.xctest; path = "/Users/leopoldomarquez/Desktop/untitled folder/juegodememoria/build/Debug-iphoneos/juegodememoriaUITests.xctest"; sourceTree = "<absolute>"; };
+		3D50EBF91C1CC5E400710539 /* juegodememoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = juegodememoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,63 +58,8 @@
 		3D50EBBA1C1CC5B100710539 = {
 			isa = PBXGroup;
 			children = (
-				3D50EBC51C1CC5B100710539 /* juegodememoria */,
-				3D50EBDF1C1CC5B100710539 /* juegodememoriaTests */,
-				3D50EBEA1C1CC5B100710539 /* juegodememoriaUITests */,
-				3D50EBC41C1CC5B100710539 /* Products */,
+				3D50EBF91C1CC5E400710539 /* juegodememoria.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		3D50EBC41C1CC5B100710539 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3D50EBC31C1CC5B100710539 /* juegodememoria.app */,
-				3D50EBDC1C1CC5B100710539 /* juegodememoriaTests.xctest */,
-				3D50EBE71C1CC5B100710539 /* juegodememoriaUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3D50EBC51C1CC5B100710539 /* juegodememoria */ = {
-			isa = PBXGroup;
-			children = (
-				3D50EBC91C1CC5B100710539 /* AppDelegate.h */,
-				3D50EBCA1C1CC5B100710539 /* AppDelegate.m */,
-				3D50EBCC1C1CC5B100710539 /* ViewController.h */,
-				3D50EBCD1C1CC5B100710539 /* ViewController.m */,
-				3D50EBCF1C1CC5B100710539 /* Main.storyboard */,
-				3D50EBD21C1CC5B100710539 /* Assets.xcassets */,
-				3D50EBD41C1CC5B100710539 /* LaunchScreen.storyboard */,
-				3D50EBD71C1CC5B100710539 /* Info.plist */,
-				3D50EBC61C1CC5B100710539 /* Supporting Files */,
-			);
-			path = juegodememoria;
-			sourceTree = "<group>";
-		};
-		3D50EBC61C1CC5B100710539 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D50EBC71C1CC5B100710539 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3D50EBDF1C1CC5B100710539 /* juegodememoriaTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D50EBE01C1CC5B100710539 /* juegodememoriaTests.m */,
-				3D50EBE21C1CC5B100710539 /* Info.plist */,
-			);
-			path = juegodememoriaTests;
-			sourceTree = "<group>";
-		};
-		3D50EBEA1C1CC5B100710539 /* juegodememoriaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3D50EBEB1C1CC5B100710539 /* juegodememoriaUITests.m */,
-				3D50EBED1C1CC5B100710539 /* Info.plist */,
-			);
-			path = juegodememoriaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +149,7 @@
 				Base,
 			);
 			mainGroup = 3D50EBBA1C1CC5B100710539;
-			productRefGroup = 3D50EBC41C1CC5B100710539 /* Products */;
+			productRefGroup = 3D50EBBA1C1CC5B100710539;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -243,9 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D50EBD61C1CC5B100710539 /* LaunchScreen.storyboard in Resources */,
-				3D50EBD31C1CC5B100710539 /* Assets.xcassets in Resources */,
-				3D50EBD11C1CC5B100710539 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +189,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D50EBCE1C1CC5B100710539 /* ViewController.m in Sources */,
-				3D50EBCB1C1CC5B100710539 /* AppDelegate.m in Sources */,
-				3D50EBC81C1CC5B100710539 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D50EBE11C1CC5B100710539 /* juegodememoriaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D50EBEC1C1CC5B100710539 /* juegodememoriaUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +220,6 @@
 			targetProxy = 3D50EBE81C1CC5B100710539 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3D50EBCF1C1CC5B100710539 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D50EBD01C1CC5B100710539 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3D50EBD41C1CC5B100710539 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D50EBD51C1CC5B100710539 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3D50EBEE1C1CC5B100710539 /* Debug */ = {
